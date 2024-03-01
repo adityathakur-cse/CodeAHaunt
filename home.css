@@ -20,6 +20,7 @@ float: left;
 margin: 8px 30px;                                
 }
 .navbar li a {
+margin-top: 50px;
 padding: 8px 2px; 
 text-decoration: none;
 color: whitesmoke;
