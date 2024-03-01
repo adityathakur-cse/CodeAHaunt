@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>BICEP Workout</title>   
+        <style>
+            .navbar {
+                 background-color:rgb(118, 15, 15) ;     
+                 border-radius: 0px;
+                 display: flex;
+            }
+            .navbar ul{
+             overflow: auto;
+            }
+            .navbar li {
+             float: left;
+             list-style: none;   
+             margin: 8px 30px;                                
+            }
+            .navbar li a {
+             padding: 8px 2px; 
+             text-decoration: none;
+             color: whitesmoke;
+             font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+             } 
+            ul li ul.dropdown li{
+                display: block;
+            }
+            ul li ul.dropdown {
+                width: 100%;
+                background-color: blueviolet;
+                position: absolute;
+                z-index: 999;
+                display: none;
+            }
+            .navbar ul li:hover ul.dropdown {
+                display: block;
+            }
+            img { 
+                 float: left;
+                 margin: 0 15px 0 0;
+                 padding:10px;
+            }
+            label {
+                font-size: 56px;
+                color: #3D0C02;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                background-color: #FF8C00;
+            }
+            p{
+                text-align: center;
+                font-size: 22px;
+            }
+            h1 {
+                text-align: center;
+            }
+            .vid{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+            }
+            .vid video{
+                width: 400px;
+                height: 300px;
+                border-radius: 20px;
+                cursor: pointer;
+                margin: 10px;
+                transition: 400ms;
+            }
+            .vid video:hover{
+                transform: scale(1.2);
+            }
+            .c{
+                color: grey;
+                font-size: 20px;
+                text-align: center;
+        }
+        </style>
+    </head>
+    <body>
+        <body>
+            <header>
+                <nav class="navbar">
+                    <label>&nbsp;PROTOVIC&nbsp;</label>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="#">EXPLORE</a>
+                        <ul class="dropdown">
+                            <li><a href=" ">EXPLORE GYM</a></li>
+                            <li><a href=" ">HOME WORKOUT</a></li>
+                        </ul>
+                        </li>
+                        <li><a href="#">ABOUT US</a></li>
+                        <li><a href="#">CONTACT US</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <h1>ABS WORKOUT :</h1>
+            <div class="vid">
+                <div>
+                <video autoplay muted control>
+                    <source src="10.mp4" type="video/mp4">
+                </video>
+                <div class="c"><b>REPEAT - x12</b></div>
+                </div>
+                <div>
+                <video autoplay>
+                    <source src="11.mp4" type="video/mp4">
+                </video>
+                <div class="c"><b>REPEAT - x12</b></div>
+                </div>
+                <div>
+                    <video autoplay>
+                        <source src="12.mp4" type="video/mp4">
+                    </video>
+                    <div class="c"><b>REPEAT - x12</b></div>
+                </div>
+                <div>
+                    <video autoplay>
+                        <source src="13.mp4" type="video/mp4">
+                    </video>
+                    <div class="c"><b>REPEAT - X12</b></div>
+                </div>
+                <div>
+                    <video autoplay>
+                        <source src="14.mp4" type="video/mp4">
+                    </video>
+                    <div class="c"><b>REPEAT - x12</b></div>
+                </div>
+                <div>
+                    <video autoplay>
+                        <source src="15.mp4" type="video/mp4">
+                    </video>
+                    <div class="c"><b>REPEAT - X10</b></div>
+                </div>
+            </div>
+    </body>
+</html>
