@@ -1,0 +1,186 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <style>
+        #Feedback {
+            padding: 5rem 0;
+            background: rgb(226, 226, 226);
+        }
+.contact-container {
+  display: flex;
+  background: #fff;
+}
+
+.contact-img {
+  width: 50%;
+}
+
+.contact-img img {
+  display: block;
+  height: 400px;
+  width: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+
+.form-container {
+  padding: 1rem;
+  width: 50%;
+  margin: auto;
+}
+
+.form-container input {
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #ddd;
+  padding: 1rem 0;
+  box-shadow: none;
+  outline: none;
+  margin-bottom: 1rem;
+  color: #444;
+  font-weight: 500;
+}
+
+.form-container textarea {
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #ddd;
+  color: #444;
+  outline: none;
+  padding: 1rem 0;
+  resize: none;
+}
+
+.form-container h2 {
+  font-size: 2.7rem;
+  font-weight: 500;
+  color: #444;
+  margin-bottom: 1rem;
+  margin-top: -1.2rem;
+}
+
+.form-container a {
+  font-size: 1.3rem;
+}
+* {
+                scroll-behavior: smooth;
+                list-style: none;
+                box-sizing: border-box;
+                font-family: "Poppins", sans-serif;
+                text-align: center;
+            }
+           .navbar {
+                background-color:rgb(118, 15, 15) ;     
+                border-radius: 0px;
+                display: flex;
+           }
+           .navbar ul{
+            overflow: auto;
+           }
+           .navbar li {
+            float: left;
+            margin: 8px 30px;                                
+           }
+           .navbar li a {
+            padding: 8px 2px; 
+            text-decoration: none;
+            color: whitesmoke;
+            }
+            ul li ul.dropdown li{
+                display: block;
+            }
+            ul li ul.dropdown {
+                width: 100%;
+                background-color: blueviolet;
+                position: absolute;
+                z-index: 999;
+                display: none;
+            }
+            .navbar ul li:hover ul.dropdown {
+                display: block;
+            }
+            label {
+                font-size: 56px;
+                color: #3D0C02;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                background-color: #FF8C00;
+            }
+            .re {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                text-decoration: none;
+            }
+            .re:hover {
+                transform: translateY(-8px);
+            }
+            .ab {
+                display: inline-table;
+                flex-wrap: wrap;
+                text-align: center;
+                margin: 10px;
+                justify-content: space-around;
+                background-color:#3D0C02;
+                color: whitesmoke;
+                }
+            .ab a{
+                text-decoration: none;
+                border: 1px solid rgb(54, 54, 234);
+                background-color: rgb(54, 54, 234);
+                color: whitesmoke;
+                border-radius: 20px;
+            }
+            .ab a:hover{
+                background-color: #ff920e;
+                border: 2px solid #ff920e ;                
+            }
+            .ab img{
+                border-radius: 15px;
+                border-top-right-radius: 0;
+                border-top-left-radius: 0;
+                height: 200px;
+                width: 260px;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <label>&nbsp;PROTOVIC&nbsp;</label>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="workout.html">EXPLORE</a>
+                <ul class="dropdown">
+                    <li><a href=" ">EXPLORE GYM</a></li>
+                    <li><a href=" ">HOME WORKOUT</a></li>
+                </ul>
+                </li>
+                <li><a href="us.html">ABOUT US</a></li>
+                <li><a href=" " target="_blank">360<sup>o</sup> VIEW</a></li>
+                <li><a href=" ">REVIEWS</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="Feedback">
+        <div class="contact-container container">
+            <div class="contact-img">
+                <img src="us.jpg">
+            </div>
+            <div class="form-container">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="E-Mail / Mobile No. ">  
+                <textarea rows="5" cols="9" style="border: 2px solid black;" placeholder="Write your message here..."></textarea>
+            <a href="index.html" class="btn btn-primary">
+                <input class="submit" onclick="alert('Will contact you soon')" placeholder="SUBMIT">
+            </a>
+            </div>
+        </div>
+        </section>
+    </div>
+</body>
+</html>

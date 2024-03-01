@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Review</title>   
+        <style>
+            * {
+                list-style: none;
+                box-sizing: border-box;
+                font-family: "Poppins", sans-serif;
+                text-align: center;
+            }
+            .navbar {
+                /* background-color:rgb(118, 15, 15) ;      */
+                border-radius: 0px;
+                display: flex;
+           }
+           .navbar ul{
+            overflow: auto;
+           }
+           .navbar li {
+            float: left;
+            margin: 8px 30px;                                
+           }
+           .navbar li a {
+            padding: 8px 2px; 
+            text-decoration: none;
+            color: whitesmoke;
+            }
+            ul li ul.dropdown li{
+                display: block;
+            }
+            ul li ul.dropdown {
+                width: 100%;
+                background-color: blueviolet;
+                position: absolute;
+                z-index: 999;
+                display: none;
+            }
+            .navbar ul li:hover ul.dropdown {
+                display: block;
+            }  
+            label {
+                font-size: 56px;
+                color:#FF8C00;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+            }
+            .con {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                text-decoration: none;
+            }
+            .container {
+                display: inline-table;
+                flex-wrap: wrap;
+                text-align: center;
+                margin: 40px;
+                justify-content: space-around;
+                background-color:black;
+                color: whitesmoke;
+                border-radius: 15px;
+                padding: 40px;
+                background-image: linear-gradient(45deg,rgb(0, 71, 0),white);
+                }
+            .container img{
+                border-radius: 50px;
+            }
+            .checked {
+                color: orange;
+            }
+            body{
+                background-color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <label>&nbsp;PROTOVIC&nbsp;</label>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="workout.html">EXPLORE</a>
+                    <ul class="dropdown">
+                        <li><a href=" ">EXPLORE GYM</a></li>
+                        <li><a href=" ">HOME WORKOUT</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="us.html">ABOUT US</a></li>
+                    <li><a href=" " target="_blank">360<sup>o</sup> VIEW</a></li>
+                    <li><a href="Review.html">REVIEWS</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </nav>
+        </header>
+        <h1 style="color: rgb(205, 255, 129)">REVIEW:</h1>
+        <div class="con">
+            <div class="container"><br><img src="https://i.pinimg.com/564x/11/e9/b2/11e9b2816f50daf5994f14d6739bbf8b.jpg" height="100px" width="100px"><br>Aditya<br>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span><br>It was a great experience using your service, the whole process from searching best workout centres to getting tips for homeworkout.<br>&nbsp;</div>
+            <div class="container"><br><img src="https://i.pinimg.com/564x/d8/19/4f/d8194fcedc2f2e630eca12f1c054851b.jpg" height="100px" width="100px"><br>Bhanu<br>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span><br>It was a great experience using your service, the whole process from searching best workout centres to getting tips for homeworkout.<br>&nbsp;</div>
+            <div class="container"><br><img src="https://i.pinimg.com/564x/73/7a/90/737a9051311fd6168d7b81064359b527.jpg" height="100px" width="100px"><br>Devraj<br><span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span><br>It was a great experience using your service, the whole process from searching best workout centres to getting tips for homeworkout.<br>&nbsp;</div>
+            <div class="container"><br><img src="https://i.pinimg.com/564x/69/a0/ad/69a0ad959b520dec09f92c7fd62cfed8.jpg" height="100px" width="100px"><br>Tabish Farhan<br>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span><br>It was a great experience using your service, the whole process from booking to receving the vehical was very simple and smooth.<br>&nbsp;</div>
+            <div class="container"><br><img src="https://i.pinimg.com/564x/96/f7/fd/96f7fdc8ae51a60aec34a189250ea9f9.jpg" height="100px" width="100px"><br>Vishant<br>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span><br>It was a great experience using your service, the whole process from booking to receving the vehical was very simple and smooth.<br>&nbsp;</div>
+            <div class="container"><br><img src="https://i.pinimg.com/564x/ea/78/79/ea78799849b1cdebb92997758a378650.jpg" height="100px" width="100px"><br>Sairaj<br><span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span><br>It was a great experience using your service, the whole process from booking to receving the vehical was very simple and smooth.<br>&nbsp;</div>
+        </div>
+    </body>
+</html>
